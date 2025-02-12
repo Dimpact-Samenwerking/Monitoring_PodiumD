@@ -45,3 +45,11 @@ grafana:
         url: https://raw.githubusercontent.com/Dimpact-Samenwerking/dashboard/main/Monitoring.json
         token: ''
         datasource: Loki
+
+  persistence:
+    enabled: true
+    accessModes:
+    - ReadWriteOnce
+    size: 50Gi
+    type: pvc
+    

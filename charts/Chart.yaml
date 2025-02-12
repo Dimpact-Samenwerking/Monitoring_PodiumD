@@ -1,7 +1,8 @@
 apiVersion: v2
-name: podiumd-monitoring-logging
-description: A Helm chart for deploying monitoring and logging
-version: 1.0.0-alpha.1
+name: monitoring
+description: A monitoring stack using Prometheus, Loki, Promtail, OpenTelemetry, and Grafana
+type: application
+version: 0.1.0
 appVersion: "1.0"
 
 dependencies:
